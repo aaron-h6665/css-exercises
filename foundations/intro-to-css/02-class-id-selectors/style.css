@@ -5,3 +5,18 @@
     font-family: sans-serif;
 }
 
+.medium-font{
+    font-size: 24px
+}
+
+#two{
+    color: rgb(0, 0, 255);
+    font-size: 36px
+}
+
+#four{
+    background-color: rgb(45, 255, 40);
+    font-size: 24px;
+    font-weight: bold;
+}
+
