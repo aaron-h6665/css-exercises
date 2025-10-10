@@ -4,3 +4,8 @@
     width: 300px;
     height: auto;
 }
+
+.avatar.distored{
+    width: 200px;
+    height: width * 2;
+}
