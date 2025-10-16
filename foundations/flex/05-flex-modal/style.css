@@ -15,11 +15,32 @@ body {
   justify-content: center;
 }
 
+.top{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+}
+
+.right-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 12px;
+  margin: 12px;
+}
+
+.buttons{
+  display: flex;
+  gap: 4px;
 }
 
 .icon {
@@ -31,8 +52,10 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 1 0 42px;
   align-items: center;
   justify-content: center;
+  margin: 12px;
 }
 
 .close-button {
